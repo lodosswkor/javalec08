@@ -1,0 +1,11 @@
+
+public class Grammer { // Grammar 
+	
+	public static void main(String[] args) {
+		
+		문법은 Grammar라고 출력한다. 
+		System.out.println("문법은 Grammar야."); 
+
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class HelloWorld {
+	
+	public static void main(String[] args) {
+		System.out.print("Hello World");
+	}
+	
+}
+
+
+#include <stdio.h> 
+
+int main() {
+	printf("HelloWorld");
+	return 0;
+}
+
+let userAlert = function() {
+	console.log("hello World");
+}
+
+
+
+
+
