@@ -17,7 +17,7 @@ public class VariableExample {
 		int className; int Class_; // 에러아님 
 		className = 10; 
 		//int className; // 변수명은 중복 선언될 수 없다. 에러
-		
+		System.out.println("TEST");
 	}
 	
 }
