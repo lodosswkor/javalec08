@@ -42,8 +42,13 @@ public class CalExample2 {
 		// true 이기 때문에 연산을 수행하지 않는다. 
 
 		System.out.println("z = " + z);
-		System.out.println("x = " + x); 
+		System.out.println("x = " + x);
 		
+		byte ab = 1;
+		
+		//System.out.println(Integer.toBinaryString(ab << 31).substring(0,8));
+		//System.out.println(Integer.toBinaryString(ab << 31).substring(0,8)); 
+		System.out.println(Integer.toBinaryString(~0));
 		
 	}
 
