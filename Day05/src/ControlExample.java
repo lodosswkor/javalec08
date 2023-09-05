@@ -52,7 +52,6 @@ public class ControlExample {
 		
 		
 		// Switch ~ case 
-		
 		int x = 10;
 		
 		switch(x) {	
@@ -68,6 +67,7 @@ public class ControlExample {
 			default : 
 			    System.out.println("여기는 디폴트(else) 입니다.");
 		}
+		
 		
 		//----- 
 		
@@ -86,7 +86,7 @@ public class ControlExample {
 		// 연산은 "비트연산" 
 		
 		// ex 
-		System.out.println("int : " + intMin + " ~ " + intMax); 
+		//System.out.println("int : " + intMin + " ~ " + intMax); 
 		
 		System.out.println("프로그램 종료");
 
