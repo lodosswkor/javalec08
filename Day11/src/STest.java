@@ -6,6 +6,8 @@ public class STest {
 		SinglePattern s1 = new SinglePattern();
 		SinglePattern s2 = new SinglePattern();
 		SinglePattern s3 = new SinglePattern();
+		Object obj = new SinglePattern();
+		
 		s1.printSharedData();
 		s2.printSharedData();
 		s3.printSharedData();
