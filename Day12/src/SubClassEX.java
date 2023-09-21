@@ -22,6 +22,14 @@ public class SubClassEX extends SuperClassEX {
 	public void printMyClassName() {
 		System.out.println("내꺼 : " + this.className); // 자기자신의 className 
 		System.out.println("아빠꺼 : " + super.className); // 부모객체의 className
+		
+		// 외부 객체에서 Application01에 있는 className static
+		// 속성을 접근할때 
+		// 대상클래스Name.맴버변수 = 값
+		// 대상클래스Name.method(); 
+		Application01.className2 = "하악하악"; 
+		
+		
 	}
 	
 	
