@@ -90,7 +90,11 @@ public class CollectionEx {
 		
 		//-- 길이 줄이기는?
 		testList.remove(0); //--> 2,-10,3,1,1,10 
+		
 		System.out.println(testList);
+		
+		// Iterator / Enumeration 
+		
 		
 	}
 	
