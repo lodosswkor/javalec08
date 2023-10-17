@@ -1,3 +1,8 @@
+import java.util.Comparator;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
+
 class User {
 	String name; 
 	int age; 
@@ -67,6 +72,15 @@ public class Lambda {
 		
 		System.out.println("동명이인? :" + a.isSameUser(user1, user2)); // 동명이인?
 		System.out.println("동명동갑? :" + b.isSameUser(user1, user2)); // 동명이인?
+//		
+//		List<String> list = List.of("10","1","2","3");
+//		List<Integer> list2 = list.stream().filter(x -> Integer.parseInt(x) >= 2)
+//									 .map(x -> Integer.parseInt(x))
+//									 .sorted((e1, e2) -> e1 > e2 ? -1 : e1 < e2 ? 1 : 0)
+//									 .collect(Collectors.toList());
+//		
+//		System.out.println(list2);
+		
 		
 	}
 	
