@@ -31,11 +31,64 @@ public class Student {
 		this(0,name,grade,score,null,null);
 	}
 
+	// getter/setter 메소드 생성 
+	
+	
+	
 
+	
 	@Override
 	public String toString() {
 		String format = "{stdNo=%d,name=%s,grade=%s,score=%d,insertDt=%s,updateDt=%s}";
 		return String.format(format, stdNo, name, grade, score, insertDt, updateDt);
+	}
+
+	public int getStdNo() {
+		return stdNo;
+	}
+
+	public void setStdNo(int stdNo) {
+		this.stdNo = stdNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	public String getInsertDt() {
+		return insertDt;
+	}
+
+	public void setInsertDt(String insertDt) {
+		this.insertDt = insertDt;
+	}
+
+	public String getUpdateDt() {
+		return updateDt;
+	}
+
+	public void setUpdateDt(String updateDt) {
+		this.updateDt = updateDt;
 	}
 
 

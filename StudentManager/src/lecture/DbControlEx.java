@@ -85,7 +85,10 @@ public class DbControlEx {
 		
 		// Delete 
 	 	// PreparedStatement pstmt3 로 user_name = 'AAA'인것만 삭제하라 
-		
+		sql = "delete from test_table where user_name = ?"; 
+		PreparedStatement pstmt3 = conn.prepareStatement(sql); 
+		pstmt3.setString(1, "AAA");
+		pstmt3.execute(); 
 		
 		
 		conn.close(); // 5. 커넥션을 닫는다. (자원반납) 
