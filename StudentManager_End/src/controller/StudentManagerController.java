@@ -31,7 +31,7 @@ public class StudentManagerController {
             System.out.print("0. 종료 \n");
             System.out.print("명령어를 입력해 주세요. : ");
 
-
+            // 사용자의 입력을 기다리는 부분 
             command = Integer.parseInt(scanner.nextLine());
 
             switch(command) {
