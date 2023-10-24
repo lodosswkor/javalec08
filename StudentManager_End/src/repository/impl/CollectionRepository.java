@@ -25,7 +25,7 @@ public class CollectionRepository implements Repository {
 
 	@Override
 	public List<Student> selectStudents() throws Exception {
-		return null;
+		return this.students;
 	}
 
 	@Override
